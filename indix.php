@@ -1,4 +1,11 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>www.practicandoGIT.com</title>
+</head>
+<body>
+
 <?php 
 
   class  Persona{
@@ -17,16 +24,16 @@
 
   public function mostrar(){
 
-  	for ($i=0; $i < count($this->nombre) ; $i++) { 
-  		self:: formato($this->nombre[$i], $this->apellido[$i]);
+    for ($i=0; $i < count($this->nombre) ; $i++) { 
+      self:: formato($this->nombre[$i], $this->apellido[$i]);
 
-  	}
+    }
 
   }
 
 
   public function formato($nombre, $apellido){
-  	echo "Nombre: " . $nombre .  "| Apellido: " . $apellido . "<br>" ;
+    echo "Nombre: " . $nombre .  "| Apellido: " . $apellido . "<br>" ;
   }
 
 
@@ -44,3 +51,12 @@
 
 
 ?>
+
+
+
+
+</body>
+
+
+</html>
+
