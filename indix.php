@@ -4,7 +4,7 @@
 <head>
   <title>www.practicandoGIT.com</title>
 </head>
-<body>
+<body style="background-color:#0099FF;">
 
 <?php 
 
